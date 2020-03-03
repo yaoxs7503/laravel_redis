@@ -25,3 +25,5 @@ Route::get('login', 'LoginController@login')->name('login');
 Route::post('login', 'LoginController@store')->name('login');
 
 Route::get('confirmEmailToken/{token}','UserController@confirmEmailToken')->name('confirmEmailToken');
+
+
